@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!-- Import the component -->
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+        <model-viewer
+            id="reveal"
+            loading="eager"
+            camera-controls="true"
+            auto-rotate="true"
+            poster="https://test-aorist-bucket.s3.amazonaws.com/images/artwork/900x600/187.1.jpg"
+            src="https://test-aorist-bucket.s3.amazonaws.com/models/artwork/187.1.glb"
+            alt="Bold [3D]"
+            ar-status="not-presenting"
+            style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; z-index: 0; display: block;">
+        </model-viewer>
+    </body>
+</html>

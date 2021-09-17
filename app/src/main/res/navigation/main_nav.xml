@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.modelviewer.ui.home.HomeFragment"
+        android:label="ModelViewerFragment" >
+        <action
+            android:id="@+id/action_modelViewerFragment_to_modelViewerFragment"
+            app:destination="@id/modelViewerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/modelViewerFragment"
+        android:name="com.example.modelviewer.ui.modelviewer.ModelViewerFragment"
+        android:label="ModelViewerFragment" />
+
+</navigation>
