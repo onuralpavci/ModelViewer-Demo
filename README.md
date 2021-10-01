@@ -5,6 +5,7 @@ Aim of this project is to teach how to use and present 3D models in an android a
 as the name of the project. However, there is still a good solution which is using ARCore, and it's implementation is also included in this project.
 
 ## Screenshots
+![](Screenshot#1.png)
 
 ## Documentation
 1 - Model-Viewer: Model-Viewer is a web based solution where we simply load a html code into a web view. Model-viewer's own documantation is a great
