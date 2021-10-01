@@ -1,0 +1,5 @@
+<resources>
+    <string name="model_url">https://arvr.google.com/scene-viewer/1.0?file=https://test-aorist-bucket.s3.amazonaws.com/models/artwork/187.1.glb</string>
+    <string name="scene_viewer_package">com.google.android.googlequicksearchbox</string>
+    <string name="model_viewer_location">file:///android_asset/modelViewer.html</string>
+</resources>

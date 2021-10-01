@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Model Viewer</string>
+    <string name="model_viewer">Model Viewer</string>
+    <string name="ar_core">AR Core</string>
 </resources>

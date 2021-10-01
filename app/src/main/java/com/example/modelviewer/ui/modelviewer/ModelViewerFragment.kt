@@ -16,7 +16,7 @@ class ModelViewerFragment : Fragment(R.layout.fragment_model_viewer) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         with(binding.modelWebView) {
-            loadUrl("file:///android_asset/modelViewer.html")
+            loadUrl(getString(R.string.model_viewer_location))
             settings.apply {
                 javaScriptEnabled = true
                 loadWithOverviewMode = true

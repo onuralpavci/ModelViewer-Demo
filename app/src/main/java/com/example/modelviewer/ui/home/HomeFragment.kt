@@ -29,8 +29,8 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     private fun arCoreButtonClicked() {
         val sceneViewerIntent = Intent(Intent.ACTION_VIEW)
         sceneViewerIntent.data =
-            Uri.parse("https://arvr.google.com/scene-viewer/1.0?file=https://test-aorist-bucket.s3.amazonaws.com/models/artwork/187.1.glb")
-        sceneViewerIntent.setPackage("com.google.android.googlequicksearchbox")
+            Uri.parse(getString(R.string.model_url))
+        sceneViewerIntent.setPackage(getString(R.string.scene_viewer_package))
         startActivity(sceneViewerIntent)
     }
 }
