@@ -1,8 +1,7 @@
 # 3D Model Presenting in Android
-> This is a sample android app to present your 3D models with .glb or .glTF extensions with 2 easy ways.
+> This is a sample android app to present any 3D model with .glb or .glTF extension by using one of 2 easy ways.
 
-Aim of this project is to teach how to use and present 3D models in an android app. The main, and suggested way to that is using model viewer which is also used
-as the name of the project. However, there is still a good solution which is using ARCore, and it's implementation is also included in this project.
+Aim of this project is to teach how to use, and present 3D models in an android app. The main, and suggested way to do that is using model viewer which is also used as the name of the project. However, there is still a good solution which is using ARCore, and it's implementation is also included in this project.
 
 ## Screenshots
 <div style="display: inline-block;">>
@@ -19,7 +18,7 @@ for. Link -> [model-viewer][model-viewer]
 
 2 - ARCore: ARCore which is also known as Google Play Services for AR Link is developed by Google and used to create augmented reality applications. Even
 though augmented reality is not used in this project, you can still use ARCore for simply presenting your 3D models. Though, in case you need to present
-your models in an augmented reality ARCore allows you to do so which makes it a more suitable solution than using model-viewer in that case Link -> [ARCore][ARCore]
+your models in an augmented reality ARCore allows you to do so which makes it a more suitable solution than using model-viewer in that case. Link -> [ARCore][ARCore]
 
 ## Tutorial Video
 There is also a very short tutorial video for this project in which implementations are explained, and differences between those 2 solutions are simply mentioned.
