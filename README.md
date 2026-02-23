@@ -28,5 +28,5 @@ Link -> [Youtube Video][youtube]
 <!-- Markdown link & img dfn's -->
 [model-viewer]: https://modelviewer.dev/
 [ARCore]: https://developers.google.com/ar/develop/java/scene-viewer
-[youtube]: https://youtube.com
+[youtube]: [https://youtube.com](https://www.youtube.com/watch?v=yOhXkRCph5I&t=675s)
 
